@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  starterwebapplicationnetcore:
+    image: starterwebapplicationnetcore
+    build:
+      context: ./StarterWebApplicationNetCore
+      dockerfile: Dockerfile
